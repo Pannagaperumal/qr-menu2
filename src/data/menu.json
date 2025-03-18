@@ -1,0 +1,57 @@
+{
+  "restaurant": {
+    "name": "Swastik Cafe",
+    "address": "Near CMRIT College, Bangalore",
+    "openingHours": "Open daily: 11:00 AM - 10:00 PM",
+    "description": "Bringing the essence of south indian cuisine to Bangalore"
+  },
+  "categories": [
+    {
+      "id": "idli",
+      "name": "Idli",
+      "description": "Idli options for breakfast",
+      "image": "src/menu_images/WIN_20240527_09_33_56_Pro.jpg"
+    },
+    {
+      "id": "dosa",
+      "name": "Dosa",
+      "description": "Dosa options for breakfast"
+    },
+    {
+      "id": "Rice Items",
+      "name": "Rice Items",
+      "description": "Rice items for lunch"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "idli",
+      "name": "Ghee Idli",
+      "description": "Ghee idli with chutney and sambar",
+      "price": 8.99,
+      "category": "idli",
+      "image": "src/menu_images/WIN_20240527_09_33_56_Pro.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Grilled Salmon",
+      "description": "Fresh salmon fillet with lemon herb butter",
+      "price": 24.99,
+      "category": "main-courses"
+    },
+    {
+      "id": "3",
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten center",
+      "price": 9.99,
+      "category": "desserts"
+    },
+    {
+      "id": "4",
+      "name": "Craft Mojito",
+      "description": "Fresh mint, lime, rum, and soda water",
+      "price": 12.99,
+      "category": "beverages"
+    }
+  ]
+}
