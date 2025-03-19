@@ -1,57 +1,76 @@
 {
   "restaurant": {
-    "name": "Swastik Cafe",
-    "address": "Near CMRIT College, Bangalore",
-    "openingHours": "Open daily: 11:00 AM - 10:00 PM",
-    "description": "Bringing the essence of south indian cuisine to Bangalore"
+    "name": "Southern Spice",
+    "address": "789 Spice Route, Chennai",
+    "openingHours": "Open daily: 9:00 AM - 10:00 PM",
+    "description": "Authentic South Indian cuisine that tantalizes your taste buds"
   },
   "categories": [
     {
-      "id": "idli",
-      "name": "Idli",
-      "description": "Idli options for breakfast",
-      "image": "src/menu_images/WIN_20240527_09_33_56_Pro.jpg"
+      "id": "breakfast",
+      "name": "Breakfast",
+      "description": "Start your day with a traditional South Indian breakfast",
+      "image": "https://source.unsplash.com/featured/?south-indian-breakfast"
     },
     {
-      "id": "dosa",
-      "name": "Dosa",
-      "description": "Dosa options for breakfast"
+      "id": "lunch",
+      "name": "Lunch",
+      "description": "Hearty and flavorful South Indian lunch options",
+      "image": "https://source.unsplash.com/featured/?south-indian-lunch"
     },
     {
-      "id": "Rice Items",
-      "name": "Rice Items",
-      "description": "Rice items for lunch"
+      "id": "dinner",
+      "name": "Dinner",
+      "description": "Delicious South Indian dinner to end your day",
+      "image": "https://source.unsplash.com/featured/?south-indian-dinner"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "description": "Refreshing drinks to complement your meal",
+      "image": "https://source.unsplash.com/featured/?south-indian-drink"
     }
   ],
   "menuItems": [
     {
-      "id": "idli",
-      "name": "Ghee Idli",
-      "description": "Ghee idli with chutney and sambar",
-      "price": 8.99,
-      "category": "idli",
-      "image": "src/menu_images/WIN_20240527_09_33_56_Pro.jpg"
+      "id": "1",
+      "name": "Idli Sambar",
+      "description": "Steamed rice cakes served with lentil soup",
+      "price": "₹50",
+      "category": "breakfast",
+      "image": "https://source.unsplash.com/featured/?idli"
     },
     {
       "id": "2",
-      "name": "Grilled Salmon",
-      "description": "Fresh salmon fillet with lemon herb butter",
-      "price": 24.99,
-      "category": "main-courses"
+      "name": "Masala Dosa",
+      "description": "Crispy rice crepe filled with spiced potato",
+      "price": "₹80",
+      "category": "breakfast",
+      "image": "https://www.pexels.com/photo/triangular-bread-on-plate-20422133/"
     },
     {
       "id": "3",
-      "name": "Chocolate Lava Cake",
-      "description": "Warm chocolate cake with a molten center",
-      "price": 9.99,
-      "category": "desserts"
+      "name": "Thali",
+      "description": "A complete meal with rice, curries, and sides",
+      "price": "₹150",
+      "category": "lunch",
+      "image": "https://source.unsplash.com/featured/?thali"
     },
     {
       "id": "4",
-      "name": "Craft Mojito",
-      "description": "Fresh mint, lime, rum, and soda water",
-      "price": 12.99,
-      "category": "beverages"
+      "name": "Biryani",
+      "description": "Fragrant rice dish cooked with spices and meat",
+      "price": "₹300",
+      "category": "dinner",
+      "image": "https://source.unsplash.com/featured/?biryani"
+    },
+    {
+      "id": "5",
+      "name": "Filter Coffee",
+      "description": "Traditional South Indian coffee",
+      "price": "₹20",
+      "category": "beverages",
+      "image": "https://source.unsplash.com/featured/?filter-coffee"
     }
   ]
 }
