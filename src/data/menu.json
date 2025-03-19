@@ -36,41 +36,41 @@
       "id": "1",
       "name": "Idli Sambar",
       "description": "Steamed rice cakes served with lentil soup",
-      "price": "₹50",
+      "price": "50",
       "category": "breakfast",
-      "image": "https://source.unsplash.com/featured/?idli"
+      "image": "https://images.pexels.com/photos/20422128/pexels-photo-20422128/free-photo-of-meal-and-soup.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": "2",
       "name": "Masala Dosa",
       "description": "Crispy rice crepe filled with spiced potato",
-      "price": "₹80",
+      "price": "80",
       "category": "breakfast",
-      "image": "https://www.pexels.com/photo/triangular-bread-on-plate-20422133/"
+      "image": "https://images.pexels.com/photos/20422138/pexels-photo-20422138/free-photo-of-triangular-bread-on-plate.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": "3",
       "name": "Thali",
       "description": "A complete meal with rice, curries, and sides",
-      "price": "₹150",
+      "price": "150",
       "category": "lunch",
-      "image": "https://source.unsplash.com/featured/?thali"
+      "image": "https://images.pexels.com/photos/8148149/pexels-photo-8148149.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": "4",
       "name": "Biryani",
       "description": "Fragrant rice dish cooked with spices and meat",
-      "price": "₹300",
+      "price": "300",
       "category": "dinner",
-      "image": "https://source.unsplash.com/featured/?biryani"
+      "image": "https://images.pexels.com/photos/9609848/pexels-photo-9609848.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": "5",
       "name": "Filter Coffee",
       "description": "Traditional South Indian coffee",
-      "price": "₹20",
+      "price": "20",
       "category": "beverages",
-      "image": "https://source.unsplash.com/featured/?filter-coffee"
+      "image": "https://images.pexels.com/photos/129207/pexels-photo-129207.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }

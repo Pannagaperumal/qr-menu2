@@ -36,7 +36,9 @@ export const Gallery: React.FC<GalleryProps> = ({ items }) => {
                 <div className="text-white p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-2xl font-bold">{item.name}</h3>
-                    <span className="text-accent-400 font-semibold">${item.price.toFixed(2)}</span>
+                    <span className="text-accent-400 font-semibold">
+                      {item.price ? `$${Number(item.price).toFixed(2)}` : 'Price not available'}
+                    </span>
                   </div>
                   <p className="text-sm text-gray-200">{item.description}</p>
                 </div>
